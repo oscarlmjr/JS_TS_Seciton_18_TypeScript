@@ -1,0 +1,25 @@
+{
+  "name": "section_18_typescript",
+  "version": "1.0.0",
+  "description": "Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noSQL, React, hooks, Redux, Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarlmjr/JS_TS_Seciton_18_TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oscarlmjr/JS_TS_Seciton_18_TypeScript/issues"
+  },
+  "homepage": "https://github.com/oscarlmjr/JS_TS_Seciton_18_TypeScript#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
