@@ -2,7 +2,7 @@
   "name": "section_18_typescript",
   "version": "1.0.0",
   "description": "Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noSQL, React, hooks, Redux, Design Patterns",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,9 +20,6 @@
   "homepage": "https://github.com/oscarlmjr/JS_TS_Seciton_18_TypeScript#readme",
   "devDependencies": {
     "eslint": "^10.15.0",
-    "eslint-config": "^0.3.0",
-    "eslint-plugin-prettier": "^5.5.7",
-    "prettier": "^3.10.1",
     "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
   }

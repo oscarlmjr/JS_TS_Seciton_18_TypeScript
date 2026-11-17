@@ -1,6 +1,6 @@
 {
   "code-runner.executorMap": {
-    "typescript": "node",
+    "typescript": "node"
   },
     "workbench.editor.labelFormat": "short",
     // Auto fix on save
@@ -8,6 +8,8 @@
       "source.fixAll.eslint": "explicit",
       "source.fixAll": "explicit"
     },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "explorer.compactFolders": false,
   "editor.minimap.enabled": false,
   "files.autoSave": "afterDelay",
@@ -18,16 +20,22 @@
   "breadcrumbs.enabled": false,
   "editor.stickyScroll.enabled": false,
   "window.zoomLevel": 0,
-    "workbench.iconTheme": "vs-seti",
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.showExpandedAbbreviation": "always",
-    "diffEditor.renderSideBySide": false,
-    "terminal.integrated.stickyScroll.enabled": false,
-    "workbench.browser.openLocalhostLinks": false,
-    "workbench.editor.empty.hint": "hidden",
-    "workbench.editor.enablePreview": true,
-    "editor.rulers": [
-        79,
-        120,
-    ],
+  "workbench.iconTheme": "vs-seti",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "diffEditor.renderSideBySide": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.browser.openLocalhostLinks": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": true,
+  "editor.rulers": [
+      79,
+      120,
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
